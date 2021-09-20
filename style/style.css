@@ -1,0 +1,58 @@
+:root {
+    --main-bg-color: #C4B7CB;
+    --second-bg-color: #BBC7CE;
+    --accent: #545C52;
+    --main-link-color: #98E2C6;
+    --second-link-color: #BFEDEF;
+}
+
+html {
+    background-color: var(--main-bg-color);
+    width: 100%;
+}
+.container {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+}
+
+.recipe-card {
+    background-color: var(--second-bg-color);
+    border-radius: 10px;
+    display:inline-block;
+    text-align: center;
+    padding-bottom: 15px;
+    width: auto;
+    margin: auto;
+    box-shadow: 5px 5px 8px var(--accent);
+}
+
+img {
+    display: block;
+    background-color: transparent;
+    width: 175px;
+    height: auto;
+    margin: auto;
+    padding: 17px 17px 10px 17px;
+}
+
+a {
+    font-size: 1.2em;
+    background-color: transparent;
+    color: var(--main-link-color);
+}
+
+a:visited {
+    color: var(--accent);
+}
+
+a:hover {
+    color: var(--second-link-color);
+}
+

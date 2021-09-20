@@ -1,0 +1,45 @@
+:root {
+    --main-bg-color: #C4B7CB;
+    --second-bg-color: #BBC7CE;
+    --accent: #545C52;
+    --main-link-color: #98E2C6;
+    --second-link-color: #BFEDEF;
+}
+
+html {
+    text-align: center;
+    background-color: var(--main-bg-color);
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: var(--second-bg-color);
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px var(--accent);
+    margin-bottom: 1.2rem;
+}
+
+img {
+    border-radius: 15px;
+    height: auto;
+    width: 30%;
+}
+
+ul, ol, p {
+    display: inline-block;
+    text-align: left;
+}
+
+ol li {
+    padding-bottom: 1.2rem;
+}
+
+#title {
+    padding-top: 1.2rem;
+}
+
+.center {
+    width: 85%;
+    margin: auto;
+}

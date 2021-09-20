@@ -1,5 +1,7 @@
 Recipes website
 
-A little recipe website created for the Odin Project using only basic HTML elements and no CSS.
+A little recipe website created for the Odin Project using only basic HTML elements.
 
-Elements includ divs, unordered and ordered lists, paragraphs, headers, links, and images.
+Elements include divs, unordered and ordered lists, paragraphs, headers, links, and images.
+
+CSS was added in later to add some basic styling.
